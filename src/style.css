@@ -1,0 +1,27 @@
+.list {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: stretch;
+  max-width: 400px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #091e4221;
+}
+
+.list-item {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  cursor: pointer;
+  border: none;
+  background-color: #ffffff;
+  border-width: 0px;
+  border-bottom-width: 1px;
+  border-style: solid;
+  border-color: #091e4221;
+  appearance: none;
+  box-sizing: border-box;
+}
