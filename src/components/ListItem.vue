@@ -9,6 +9,6 @@ const { item } = defineProps({
 
 <template>
   <div class="list-item">
-    {{ item.label }}
+    {{ item.id }} {{ item.label }}
   </div>
 </template>
