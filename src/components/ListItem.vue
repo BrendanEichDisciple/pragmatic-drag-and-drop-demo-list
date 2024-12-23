@@ -1,5 +1,5 @@
 <script setup>
-defineProps({
+const { item } = defineProps({
   item: {
     type: Object,
     required: true,
